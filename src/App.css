@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*--- RESET ---*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    background-color: #000000;
+}
+
+/*--- IMAGE HEADER ---*/
+.img__header {
+    width: 100vw;
+    aspect-ratio: 3.5;
+}
+
+/*--- HEADER ---*/
+.title {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 62px;
+    color: #ffffff;
+}
+.input {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+}
+#search {
+    padding: .5em;
+    background-color: #062226;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.input-btn {
+    padding: .5em;
+    background-color: #062226;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.location {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 890px;
+    height: 126px;
+    background: #062226;
+    margin-bottom: 3em;
+
+}
+
+.location__card {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, auto);
+    background-color: #062226;
+    width: 950px;
+    height: 126px;
+    text-align: center;
+    align-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+/*--- CARDS ---*/
+.contain__resident {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+gap: 3em;
+}
+.resident {
+    background-color: #062226;
+    color: #ffffff;
+    border-radius: 1em;
+    width: min-content;
+}
+.resident__img {
+    overflow: hidden;
+    border-radius: 1em 1em 0 0;
+}
+.resident__text {
+    list-style: none;
+}
